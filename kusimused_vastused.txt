@@ -1,0 +1,20 @@
+Mis on Eesti pealinn?:Tallinn
+Mis värvi on taevas selgel päeval?:sinine
+Mis on suurim planeet Päikesesüsteemis?:Jupiter
+Mis on vee keemiline valem?:H2O
+Kes on Eesti president (2025. aastal)?:Alar Karis
+Mis on Python?:programmeerimiskeel
+Kui palju külgi on kolmnurgal?:kolm
+Mis on Maa satelliit?:Kuu
+Mis on Eesti rahvuslind?:suitsupääsuke
+Kuidas nimetatakse inimkeha suurimat luud?:reieluu
+Mis on Eesti rahvuslill?:rukkilill
+Mis on suurim ookean Maal?:Vaikne ookean
+Mis on fotosünteesi peamine energiaallikas?:päike
+Kui palju on 24 tundi ühes päevas?:kakskümmend neli
+Mis on Eesti suurim saar?:Saaremaa
+Mis on Maa keskmine temperatuur (umbes)?:15 kraadi
+Mis on kõige kõvem looduslik aine?:teemant
+Kes oli esimene inimene Kuul?:Neil Armstrong
+Mis on Eesti rahvuseepos?:Kalevipoeg
+Mis on Eesti naaberriik lõunas?:Läti
