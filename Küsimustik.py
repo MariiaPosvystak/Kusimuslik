@@ -119,7 +119,7 @@ while True:
 
         save_results(results)
         send_emails(results)
-        display_results(results)
+        display_results(results) 
 
     elif v == "2":
         lisa_kus()
