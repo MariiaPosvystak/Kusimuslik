@@ -89,9 +89,41 @@ import json
 import random
 import smtplib
 import requests
+from funktsioonid import *
 
-kus_vas = laadimine_failist('kusimused_vastused.txt')
-print("-------Menuu-------\n"
+# kus_vas = laadimine_failist('kusimused_vastused.txt')
+
+
+while True:
+    print("----------Menuu----------\n"
       "1. - Alusta küsimustikku\n"
     "2. - Lisa uus küsimus\n"
     "3. - Välju")
+    v = input("Valige valik (1-3): ")
+
+    if v == "1":
+        questions = read_questions()
+        if len(questions) < N:
+            print(f"Недостатньо питань у файлі! Потрібно щонайменше {N}.")
+            continue
+
+        for _ in range(M):
+            name = input("Введіть ваше ім’я: ").strip()
+            if name in completed_surveys:
+                print(f"{name}, ви вже проходили анкету!")
+                continue
+            score = conduct_survey(name, questions, N)
+            if score is not None:
+                email = generate_email(name)
+                results[name] = (score, email)
+
+        save_results(results)
+        send_emails(results)
+        display_results(results)
+
+    elif v == "2":
+        lisa_kus()
+    elif v == "3":
+        break
+    else:
+        print("Невірний вибір, спробуйте ще раз.")

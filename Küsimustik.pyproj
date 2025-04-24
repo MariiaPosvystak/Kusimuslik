@@ -25,7 +25,7 @@
     <Compile Include="funktsioonid.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="koik.txt" />
+    <Content Include="koik.json" />
     <Content Include="kusimused_vastused.txt" />
     <Content Include="oiged.txt" />
     <Content Include="valed.txt" />
